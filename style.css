@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: opx;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: rgb(29, 50, 102);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    position: sticky;
+    top: 0;
+   
+}
+
+nav ul{
+    display: flex;
+    margin-top: 15px;
+}
+
+nav ul li a{
+    justify-content: space-evenly;
+    margin: 30px;
+    color: aliceblue;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+h1{
+    color: rgb(46, 111, 111);
+    text-shadow: 4px 5px 3px rgb(46, 1, 1);
+    font-size: 40px;
+}
+nav ul li a:hover{
+    color: blue;
+    text-shadow: 4px 5px 20px white;
+    
+
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+#home::before{
+    content: "";
+    background-image: url(https://c.wallhere.com/photos/a0/1c/johannes_strate_skarf_man_face_field-776717.jpg!d);
+    height: 600px;
+    background-position: top;
+    background-size: cover;
+}
+.main{
+    border: 2px ridge rgb(7, 7, 66);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 800px;
+    left: 70%;
+    box-shadow: 2px 5px;
+}
+
+span{
+    color: blue;
+}
+
+.pic{
+    display: flex;
+}
+
+.pic img{
+    width: 500px;
+   
+    
+
+}
+
+
+h3{
+    margin: 30px;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 4px 4px 3px blueviolet;
+}
+
+.pic h4{
+    text-align: center;
+    font-size: x-large;
+    margin: 10px;
+    color: rgb(51, 10, 89);
+}
+ 
+.pic p{
+    text-align: justify;
+    margin: 30px;
+
+}
+
+.gallery{
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.gallery img{
+    width: 400px;
+    height: 200px;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+
+.gallery,img:hover{
+    box-shadow: 3px 4px 5px blue;
+}
+
+.row{
+    display: flex;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    border: 2px ridge rgb(51, 10, 89);
+    margin: 20px;
+    background: linear-gradient(to top,rgb(50, 25, 73)50%,rgba(213, 207, 207, 0.848)50%);
+    background-size: 100% 200%;
+    transition: all 0.7s;
+}
+.box:hover{
+    background-position: right bottom;
+    border: none;
+    box-shadow: 3px 5px 6px 2px rgb(82, 82, 198);
+
+}
+.box img{
+    width: 100%;
+}
+
+.box h4{
+    text-align: center;
+    color: brown;
+}
+
+.box p{
+    text-align: justify;
+    margin: 20px;
+}
+
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+
+button{
+    color: aliceblue;
+    background-color: black;
+
+}
+.cv{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 29px;
+}
+footer{
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+p{
+    text-align: center;
+    
+    margin: 20px;
+    
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+
+}
